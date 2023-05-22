@@ -92,7 +92,7 @@ List<string> name = new List<string>();
 List<int> Time = new List<int>();
 List<int> Distance = new List<int>();
 
-
+// Adds distances and time for random contestets to test the function
 Time.Add(60);
 Distance.Add(100);
 Time.Add(80);
@@ -106,9 +106,9 @@ while(true)
     Console.WriteLine("---------------------------------------------");
     Console.WriteLine("| Gliding Point Calculator");
     Console.WriteLine("---------------------------------------------");
-    Console.WriteLine("| 1: Read");
-    Console.WriteLine("| 2: calculate");
-    Console.WriteLine("| 3: show");
+    Console.WriteLine("| 1: Read"); // supposed to allow you to change information about the intire competition and also induvidual players
+    Console.WriteLine("| 2: calculate"); // supposed to do all of the calculation for the day and them add then to a list. but as of now only does some of the calculations
+    Console.WriteLine("| 3: show"); // supposed to show all of the results in a sorted
     Console.WriteLine("| 0: exit");
     Console.WriteLine("---------------------------------------------");
     string menu = Console.ReadLine();
@@ -143,12 +143,12 @@ while(true)
 
 
 
+
+
+
+/* this hole section was a test to make a text editor and it half works
 string FileTemp;
 FileTemp = File.ReadAllText("C:\\Temp\\Temp.txt");
-
-
-/*
-
 while(true)
 {
     string FileTemp = "";
