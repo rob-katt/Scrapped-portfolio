@@ -4,6 +4,7 @@ graystatus = 0
 whitestatus = 0
 
 --[[
+some docementation on how to set it up in minecraft.
 black is if the fustion lasers is charged
 gray to turn fire the fusion lasers
 cyan is if the fusion reactor is on
@@ -11,6 +12,7 @@ cyan is if the fusion reactor is on
 
 while true do
     
+    -- outputs both to gray and white redstone bundle
     redstone.setBundledOutput("top",graystatus + whitestatus)
 
     input = read()
@@ -24,6 +26,7 @@ while true do
         if whitestatus = 0 then
             print ("fision reactor is on")
         end
+        -- checks if there is a signal comming from a redstone bundle
         if colors.test(topinput, colors.cyan) then
             print ("fusion reactor is on")
         end
