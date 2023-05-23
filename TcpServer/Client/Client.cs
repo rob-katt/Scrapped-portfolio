@@ -2,7 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-
+// i dont remember exactly how this code works because it was some time ago i did it. so i cant do documentation
 namespace TcpClient
 {
     class Client
